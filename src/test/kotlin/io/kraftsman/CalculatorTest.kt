@@ -17,4 +17,11 @@ class CalculatorTest {
 
         assertEquals(3, target.add(1, 2))
     }
+
+    @Test
+    fun shouldReturnOneWhenTwoSubOne() {
+        val target = Calculator()
+
+        assertEquals(1, target.sub(2, 2))
+    }
 }
