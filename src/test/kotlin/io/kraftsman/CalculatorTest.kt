@@ -15,6 +15,6 @@ class CalculatorTest {
     fun shouldReturnThreeWhenOneAddTwo() {
         val target = Calculator()
 
-        assertEquals(3, target.sub(1, 2))
+        assertEquals(3, target.add(1, 2))
     }
 }
