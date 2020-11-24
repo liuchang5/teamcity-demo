@@ -10,4 +10,11 @@ class CalculatorTest {
 
         assertEquals(2, target.add(1, 1))
     }
+
+    @Test
+    fun shouldReturnThreeWhenOneAddTwo() {
+        val target = Calculator()
+
+        assertEquals(3, target.sub(1, 2))
+    }
 }
